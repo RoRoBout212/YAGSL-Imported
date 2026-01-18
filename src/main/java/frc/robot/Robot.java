@@ -66,7 +66,6 @@ public class Robot extends TimedRobot {
     SmartDashboard.putNumber("SteerControllerY",steerController.getY());
     SmartDashboard.putNumber("DriveControllerX",driveController.getX()); 
     SmartDashboard.putNumber("DriveControllerY",driveController.getY());
-    
   }
   
   /** This function is called once each time the robot enters Disabled mode. */

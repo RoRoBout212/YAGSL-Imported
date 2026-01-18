@@ -18,7 +18,7 @@ public final class Constants {
   public static class OperatorConstants {
     public static final int DriveControllerPort = 0;
     public static final int SteerControllerPort = 1;
-    public static final double DEADBAND = 0.05;
+    public static final double DEADBAND = 0.07;
   }
-  public static final   double maximumSpeed = Units.feetToMeters(0.5);
+  public static final double maximumSpeed = Units.feetToMeters(4.5);
 }

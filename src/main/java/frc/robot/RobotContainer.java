@@ -33,7 +33,7 @@ public class RobotContainer {
   // Replace with CommandPS4Controller or CommandJoystick if needed
   private final Joystick driveController =
       new Joystick(OperatorConstants.DriveControllerPort);
-    private final Joystick steerController =
+  private final Joystick steerController =
       new Joystick(OperatorConstants.SteerControllerPort);
 
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
@@ -63,7 +63,6 @@ public class RobotContainer {
   Command driveFieldOrientatedAngularVelocity = driveBase.driveFieldOriented(driveAngularVelocity);
   private void configureBindings() {
     driveBase.setDefaultCommand(driveFieldOrientatedDirectAngle);
-
   }
 
   /**
